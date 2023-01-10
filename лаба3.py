@@ -48,7 +48,7 @@ class AudioBook(Book):
         return f"Электронная нига {self.name}. Автор {self.author}"
 
     @property
-    def duration(self) -> int:
+    def duration(self) -> float:
         return self.duration
 
     @duration.setter
