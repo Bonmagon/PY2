@@ -70,8 +70,8 @@ class Truck(Auto):
         Инициализируем объект "Грузовик"
         :param cargo: тип перевозимого грузовиком груза
         """
-            super().__init__(color, model, weight, number_of_wheels)
-            self.cargo = cargo
+        super().__init__(color, model, weight, number_of_wheels)
+        self.cargo = cargo
 
     def category(self) -> str:
         return "C"
@@ -81,5 +81,3 @@ class Truck(Auto):
 
     def __repr__(self) -> str:
         return f'Truck (color={self.color!r}, model={self.model!r}, weight={self.weight!r}, number_of_wheels={self.number_of_wheels!r}), cargo={self.cargo!r}'
-
-    pass
