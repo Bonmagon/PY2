@@ -81,3 +81,4 @@ class Truck(Auto):
 
     def __repr__(self) -> str:
         return f'Truck (color={self.color!r}, model={self.model!r}, weight={self.weight!r}, number_of_wheels={self.number_of_wheels!r}), cargo={self.cargo!r}'
+       
